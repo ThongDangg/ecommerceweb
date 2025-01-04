@@ -1,13 +1,15 @@
-
-
 function App() {
-  
+    const a = (b) => {
+        console.log('ádasjkdaskd');
+    };
 
-  return (
-    <>
-      <h1>CHAO MAY CON CHO </h1>
-    </>
-  )
+    return (
+        <>
+            <div>
+              <h1>chào mấy con chó</h1>
+            </div>
+        </>
+    );
 }
 
-export default App
+export default App;
