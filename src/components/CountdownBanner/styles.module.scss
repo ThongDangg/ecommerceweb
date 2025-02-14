@@ -1,0 +1,28 @@
+@import '@styles/variables.module.scss';
+@import '@styles/mixins.module.scss';
+
+.container {
+    background-image: url(https://i.pinimg.com/736x/4b/0c/49/4b0c495d94f1e2aa642f6a6daac9130b.jpg);
+    height: 420px;
+    width: calc(100%/2.04);
+    background-repeat: no-repeat;
+    background-position: left; /* Căn giữa cả chiều ngang và dọc */
+    background-size: cover;
+}
+
+.containerTimmer {
+    @include flex_box_custom(center, center, 10px);
+}
+.title {
+    font-size: 28px;
+    color: #FF0000;
+    background-color: rgba(0, 0, 0, 0.5); /* Nền đen mờ */
+    text-align: center;
+    padding: 2px;
+    
+}
+
+.boxBtn {
+    margin-top: 70px;
+    text-align: center;
+}

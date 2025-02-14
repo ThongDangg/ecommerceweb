@@ -1,13 +1,12 @@
-function App() {
-    const a = (b) => {
-        console.log('ádasjkdaskd');
-    };
 
+import HomePage from "@components/HomePage/HomePage";
+
+
+function App() {
     return (
         <>
-            <div>
-              <h1>chào mấy con chó</h1>
-            </div>
+            <HomePage />
+            
         </>
     );
 }

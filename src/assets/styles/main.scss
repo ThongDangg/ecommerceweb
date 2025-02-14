@@ -1,0 +1,6 @@
+// dùng để import 3 thằng module ở trên vào cùng 1 file cho gọn, sau đó chỉ cần import vào main .jsx
+
+@import 'normalize.css';
+@import './variables.module.scss';
+@import './mixins.module.scss';
+@import './global.module.scss';

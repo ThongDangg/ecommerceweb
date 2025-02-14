@@ -1,0 +1,12 @@
+.wrapLayout { // thằng này bao phủ web
+    display: flex;  
+    justify-content: center;
+}
+
+.container { // thằng này sẽ là thuộc tính của những thằng con trong wrapLayout
+    width: 1250px;
+    
+    // cái này t phải sửa vì thằng infocard  với thằng list product xài chung main layout nó đẩy ra xa quá
+    
+
+}

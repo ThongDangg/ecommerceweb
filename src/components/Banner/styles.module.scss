@@ -1,0 +1,29 @@
+@import '@styles/mixins.module.scss';
+@import '@styles/variables.module.scss';
+.container {
+    @include flex_box_custom(center, center, 0px);
+
+    background-image: url(../../assets/images/bannerHades.jpg);
+    min-height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover; // tránh background không bị ăn
+    
+}
+
+.content {
+    @include flex_box_custom(center, center, 10px);
+
+    flex-direction: column; // flex theo cột chứ không phải theo dòng như các thành phần trên header
+}
+.title {
+    font-size: 25px;
+    color: $four_color;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.des {
+    color: $third-color;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
